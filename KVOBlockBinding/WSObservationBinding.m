@@ -31,6 +31,7 @@
 {
     if(self.valid)
         [self invalidate];
+    [super dealloc];
 }
 
 - (void)observeValueForKeyPath:(NSString *)path 
